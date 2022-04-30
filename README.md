@@ -26,5 +26,5 @@ Run Dashboard locally :
     python app.py
 
  Result : 
-      The distance from port is upto 25oo km and distance from shore is 3000 km the vessels between this boudary denotes the illegal fishing vessels. 'red' points displayes the vessels  in the old record section and in the new record section 'red' is illegal fishng vessel and 'blue' denotes legal fishing vessels.
+      The distance from port is upto 25oo km and distance from shore is 3000 km the vessels between this boudary denotes the illegal fishing vessels.The 'orange' points displayes the vessels  in the old record section and in the new record section 'red' is illegal fishng vessel and 'blue' denotes legal fishing vessels.
 Note: Upload the training file in the dashboard directry and also upload trollers.csv and predictions.csv file in the data.
