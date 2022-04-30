@@ -261,7 +261,7 @@ def update_graph(selectedGearType, selectedFishing, selectedTimespan, clickData)
                 hoverinfo="text",
                 mode="markers",
                 marker=dict(
-                    color="red",
+                    color="orange",
                     size=10
                 ),
             ),
