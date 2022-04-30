@@ -5,7 +5,7 @@ from sklearn.metrics import recall_score
 from sklearn.metrics import f1_score
 from sklearn.metrics import confusion_matrix
 
-df = pd.read_csv("D:/illegalfishing/dashboard/trollers.csv")
+df = pd.read_csv("/training_data.csv")
 df.head(-5)
 
 df.isnull().sum()
