@@ -5,7 +5,7 @@ The aim of this project to detect the illegal fishing vessels and and their acti
 Data Set : 
 we have take  reference from 'Global fishing watch' which is provide Automatic Identification System or AIS data set 
 
-    https://globalfishingwatch.org/
+   https://globalfishingwatch.org/
  
  1.The data we used to training the model is :
      
