@@ -79,12 +79,12 @@ timespan_days_offset = {
 
 
 #importing files
-data = pd.read_csv("D:/illegalfishing/dashboard/data/trollers.csv")
+data = pd.read_csv("/trollers.csv")
 data['adjust_time_date'] = pd.to_datetime(data['adjust_time_date'])
 data['flag_registry'] = data['flag_registry'].fillna("IND")
 data['is_fishing_color'] = data['is_fishing'].apply(lambda x: 'red' if x==1 else 'blue')
 
-pred = pd.read_csv("D:/illegalfishing/dashboard/data/prediction.csv")
+pred = pd.read_csv("/prediction.csv")
 pred['mmsi'] = '[protected]'
 pred['adjust_time_date'] = pd.to_datetime(pred['adjust_time_date'])
 pred['pred_color'] = pred['pred'].apply(lambda x: 'red' if x==1 else 'blue')
